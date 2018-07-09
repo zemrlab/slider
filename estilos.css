@@ -1,18 +1,16 @@
 .slider{
-width:35%
-margin:auto;
-overflow:hidden:
+
+
 }
 .slider ul{
-display:flex;
-padding:0;
-width:100%;
+
+
+
 animation: cambio 20% infinite alternate linear;
 }
 
 .slider li{
-width: 100%;
-list-style: none;
+
 }
 
 @keyframes cambio{
