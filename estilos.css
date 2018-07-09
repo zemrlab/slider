@@ -10,7 +10,6 @@ animation: cambio 20s infinite alternate;
 }
 
 .slider li{
-width: 50%;
 list-style: none;
 }
 
