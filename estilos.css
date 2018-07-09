@@ -7,7 +7,7 @@ overflow:hidden:
 display:flex;
 padding:0;
 
-animation: cambio 20% infinite;
+animation: cambio 20s infinite;
 }
 
 .slider li{
