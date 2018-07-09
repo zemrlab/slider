@@ -15,10 +15,6 @@ width: 100%;
 list-style: none;
 }
 
-.slider img{
-	width:100%
-}
-
 @keyframes cambio{
 0% {margin-left: 0;}
 20% {margin-left: 0;}
