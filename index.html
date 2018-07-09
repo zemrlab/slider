@@ -4,7 +4,34 @@
  <title>Slider automatico </title>
  <meta charset="UTF-8">
  <meta name="viewport" content="with=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
- <link rel="stylesheet" href="css/estilos.css">
+
+<style>
+	.slider{
+width:35%
+margin:auto;
+overflow:hidden:
+}
+.slider ul{
+display:flex;
+padding:0;
+width:100;
+animation: cambio 20% infinite;
+}
+
+.slider li{
+width: 100%;
+list-style: none;
+}
+
+@keyframes cambio{
+0%{margin-left:0;}
+20%{margin-left:0;}
+  
+25%{margin-left: -100%;}
+45%{margin-left: -100%;}
+
+}
+</style>
 </head>
 <body>
   <div class="slider">
