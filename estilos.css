@@ -6,12 +6,12 @@
 .slider ul{
 display:flex;
 padding:0;
-width:200%
+width:100%
 animation: cambio 20s infinite alternate;
 }
 
 .slider li{
-width: 100%;
+width: 50%;
 list-style: none;
 }
 
