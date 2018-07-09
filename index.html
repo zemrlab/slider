@@ -4,7 +4,33 @@
  <title>Slider automatico </title>
  <meta charset="UTF-8">
  <meta name="viewport" content="with=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
- <link rel="stylesheet" href="estilos.css">
+ <style>
+ .slider{
+	width: 95%;
+	margin: border-bottom: dashed;
+}
+
+.slider ul{
+display:flex;
+padding:0;
+animation: cambio 20s infinite alternate linear;
+}
+
+.slider li{
+list-style: none;
+}
+
+@keyframes cambio{
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+  
+25% {margin-left: -38%;}
+45% {margin-left: -38%;}
+
+}
+
+ </style>
+ 
 </head>
 <body>
   <div class="slider">
